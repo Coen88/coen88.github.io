@@ -1,0 +1,116 @@
+@import "variables";
+
+// mixins and placeholders
+%golden-stripe {
+  display: block;
+  height: $spacer-2;
+  background: $gold-light;
+  border-top: 1px solid rgba($gold-light, 0.2);
+  border-bottom: 1px solid rgba($gold-light, 0.2);
+  background: linear-gradient(
+    90deg,
+    $gold-light 0%,
+    $gold 18%,
+    $gold-dark 29%,
+    $gold-dark 35%,
+    $gold 44%,
+    $gold-light 50%,
+    $gold 56%,
+    $gold-dark 68%,
+    $gold-dark 77%,
+    $gold 84%,
+    $gold-light 100%
+  );
+}
+
+%golden-gradient {
+  background: $gold-light;
+  border: 1px solid rgba($gold-light, 0.2);
+  background: linear-gradient(
+    90deg,
+    $gold-light 0%,
+    $gold 18%,
+    $gold-dark 29%,
+    $gold-dark 35%,
+    $gold 44%,
+    $gold-light 50%,
+    $gold 56%,
+    $gold-dark 68%,
+    $gold-dark 77%,
+    $gold 84%,
+    $gold-light 100%
+  );
+}
+
+@mixin bg-pattern(
+  $pattern-bg-1,
+  $pattern-bg-2,
+  $pattern-bg-3,
+  $pattern-bg-4,
+  $size: 1
+) {
+  background-color: $pattern-bg-4;
+  background-image: radial-gradient(
+      $size * 2rem,
+      rgba(255, 255, 255, 0) 80%,
+      $pattern-bg-1 80%,
+      $pattern-bg-1 99%,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      $size * 2rem,
+      rgba(255, 255, 255, 0) 80%,
+      $pattern-bg-1 80%,
+      $pattern-bg-1 99%,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      $size * 2.35rem,
+      rgba(255, 255, 255, 0) 50%,
+      $pattern-bg-2 50%,
+      $pattern-bg-2 75%,
+      $pattern-bg-2 99%,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      $size * 2.35rem,
+      rgba(255, 255, 255, 0) 50%,
+      $pattern-bg-2 50%,
+      $pattern-bg-3 75%,
+      $pattern-bg-2 99%,
+      rgba(255, 255, 255, 0)
+    );
+  background-size: $size * 4rem $size * 4rem;
+  background-position: 0 0, $size * 2em $size * 2em, $size * 2em $size * 2em,
+    0 0;
+}
+
+@mixin bg-pattern-2($pattern-bg-1, $pattern-bg-2, $size: 1) {
+  background-color: $pattern-bg-2;
+  background-image: linear-gradient(
+      45deg,
+      $pattern-bg-1 26%,
+      transparent 0,
+      transparent 75%,
+      $pattern-bg-1 0
+    ),
+    linear-gradient(
+      45deg,
+      $pattern-bg-1 26%,
+      transparent 0,
+      transparent 75%,
+      $pattern-bg-1 0
+    );
+  background-size: $size * 2rem $size * 2rem;
+  background-position: 0 0, $size * 1rem $size * 1rem;
+}
+
+@mixin bg-pattern-3($pattern-bg-1, $pattern-bg-2, $size: 1) {
+  background-color: $pattern-bg-2;
+  background-image: linear-gradient(
+    45deg,
+    $pattern-bg-1 55%,
+    transparent 55%,
+    transparent 100%
+  );
+}

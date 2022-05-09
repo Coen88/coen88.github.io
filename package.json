@@ -1,0 +1,20 @@
+{
+  "name": "kantorwarszawa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-sprite": "svg-sprite -s --symbol-dest icons --symbol-sprite icons.svg --symbol-bust icons/flags/*.svg"
+  },
+  "author": "Coen",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "bootstrap-icons": "^1.6.1",
+    "flag-icon-css": "^3.5.0",
+    "svg-sprite": "^1.5.3"
+  }
+}
