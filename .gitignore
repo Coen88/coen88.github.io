@@ -1,0 +1,6 @@
+.scss/partials
+*.css
+*.css.map
+
+# dependencies
+/node_modules
