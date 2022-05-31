@@ -10443,14 +10443,30 @@ progress {
   margin: 0;
   display: flex;
 }
-.navigation li::after {
+.navigation__item {
+  display: none;
+}
+@media (min-width: 576px) {
+  .navigation__item {
+    display: block;
+  }
+}
+.navigation__item::after {
   content: "|";
   color: #fff;
   display: inline-block;
   margin: 0 0.5rem;
 }
-.navigation li:last-child::after {
+.navigation__item:last-child::after {
   content: none;
+}
+.navigation__item--contact {
+  display: block;
+}
+@media (max-width: 575.98px) {
+  .navigation__item--contact::after {
+    content: none;
+  }
 }
 
 .shade::before, .shade::after {

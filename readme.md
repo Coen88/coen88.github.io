@@ -24,22 +24,19 @@ większa ilość walut
 
 *wytłuścić dwie pierwsze waluty
 
-dodać nawigację w headerze, dojazd, o nas
+*dodać nawigację w headerze, dojazd, o nas
 
-powiększyć fonty wszystkie
+*powiększyć fonty wszystkie
 
 umieścić zdjecia z kantoru, wnętrza
 
 pod migającymi walutami pojawiający się tekst
+Przykładowe teksty:
+- Promocja! Korona Czeska, sprzedaż 
+- Z okazji Świąt Bożego Narodzenia naszym klientom życzymy wszystkiego najlepszego!
 
 dodać logo w svg
 
 zmienić kolor favicony, stestować podmiane na logo
 
-Promocja! Korona Czeska, sprzedaż 
-
-Z okazji Świąt Bożego Narodzenia naszym klientom życzymy wszystkiego najlepszego!
-
-
-
-na mobilce wrzucamy przewijanie do kontaktu do headera.
+* na mobilce wrzucamy przewijanie do kontaktu do headera.

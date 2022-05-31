@@ -15,7 +15,13 @@ $font-size-xs: $font-size-base * .75;
     display: flex;
   }
 
-  li {
+  &__item {
+    display: none;
+    
+    @include media-breakpoint-up(sm) {
+      display: block;
+    }
+
     &::after {
       content: '|';
       color: $white;
@@ -25,6 +31,16 @@ $font-size-xs: $font-size-base * .75;
 
     &:last-child::after {
       content: none;
+    }
+    
+    &--contact {
+      display: block;
+
+      @include media-breakpoint-down(sm) {
+        &::after {
+          content: none;
+        }
+      }
     }
   }
 }
