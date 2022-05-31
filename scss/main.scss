@@ -7,6 +7,27 @@ $font-size-xs: $font-size-base * .75;
 @import "partials/font-animation.scss";
 @import "partials/font-animation-2.scss";
 
+.navigation {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  li {
+    &::after {
+      content: '|';
+      color: $white;
+      display: inline-block;
+      margin: 0 $spacer-2;
+    }
+
+    &:last-child::after {
+      content: none;
+    }
+  }
+}
 
 .shade {
   &::before,
@@ -125,11 +146,19 @@ $font-size-xs: $font-size-base * .75;
       }
     }
 
-    > :nth-last-child(1),
-    > :nth-last-child(2) {
+
+    > :nth-last-child(1) {
       .currency {
         border: none;
       }
+    }
+
+    @include media-breakpoint-up(md) {
+      > :nth-last-child(2) {
+        .currency {
+          border: none;
+        }
+      }  
     }
   }
 }

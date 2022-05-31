@@ -10437,6 +10437,22 @@ progress {
   box-shadow: 25px 25px 25px rgba(46, 46, 49, 0.8);
 }
 
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.navigation li::after {
+  content: "|";
+  color: #fff;
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+.navigation li:last-child::after {
+  content: none;
+}
+
 .shade::before, .shade::after {
   content: "";
   display: block;
@@ -10530,9 +10546,13 @@ progress {
   background-color: rgba(139, 102, 14, 0.1);
   font-weight: bold;
 }
-.currencies__body > :nth-last-child(1) .currency,
-.currencies__body > :nth-last-child(2) .currency {
+.currencies__body > :nth-last-child(1) .currency {
   border: none;
+}
+@media (min-width: 768px) {
+  .currencies__body > :nth-last-child(2) .currency {
+    border: none;
+  }
 }
 
 .currency {
