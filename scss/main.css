@@ -10560,7 +10560,7 @@ progress {
 .currencies__body > :nth-child(1) .currency,
 .currencies__body > :nth-child(2) .currency {
   background-color: rgba(139, 102, 14, 0.1);
-  font-weight: bold;
+  font-weight: 700;
 }
 .currencies__body > :nth-last-child(1) .currency {
   border: none;

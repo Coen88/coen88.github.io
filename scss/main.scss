@@ -146,7 +146,7 @@ $font-size-xs: $font-size-base * .75;
   }
 
   &__header {
-    font-weight: 700;
+    font-weight: $font-weight-bold;
     position: sticky;
     top: 0;
     background-color: $white;
@@ -158,7 +158,7 @@ $font-size-xs: $font-size-base * .75;
     > :nth-child(2) {
       .currency {
         background-color: rgba($gold, .1);
-        font-weight: bold;
+        font-weight: $font-weight-bold;
       }
     }
 
@@ -252,7 +252,7 @@ $font-size-xs: $font-size-base * .75;
   &__title {
     font-family: Garamond, serif;
     font-size: 2em;
-    font-weight: 300;
+    font-weight: $font-weight-light;
     position: relative;
     color: $gold-dark;
     color: $green-dark;
@@ -284,7 +284,7 @@ $font-size-xs: $font-size-base * .75;
   }
   &__subtitle {
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: $font-weight-light;
     color: $gray-100;
     margin-bottom: $spacer-4;
     
