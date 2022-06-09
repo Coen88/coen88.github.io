@@ -10090,7 +10090,7 @@ progress {
     display: none !important;
   }
 }
-.footer::before, .about-2::before, .about-2::after, .merge::before, .merge::after, .header::after, .section__pattern::after {
+.footer::before, .gallery::after, .about-2::before, .about-2::after, .merge::before, .merge::after, .header::after, .section__pattern::after {
   display: block;
   height: 0.5rem;
   background: #fbfec5;
@@ -10833,6 +10833,10 @@ progress {
     background-color: #fff;
     box-shadow: 0 0 5px -2px #000;
   }
+}
+
+.gallery::after {
+  content: "";
 }
 
 .footer {

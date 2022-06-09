@@ -503,6 +503,13 @@ $font-size-xs: $font-size-base * .75;
   }
 }
 
+.gallery {
+  &::after {
+    content: "";
+    @extend %golden-stripe;
+  }
+}
+
 .footer {
   padding-bottom: $spacer-2;
   background-color: $green-dark;
