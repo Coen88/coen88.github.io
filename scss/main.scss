@@ -148,9 +148,16 @@ $font-size-xs: $font-size-base * .75;
   &__header {
     font-weight: $font-weight-bold;
     position: sticky;
-    top: 0;
+    top: 74px;
     background-color: $white;
     z-index: 1;
+    
+    .currency {
+      &:hover,
+      &.clicked {
+        background-color: $white;
+      }
+    }
   }
 
   &__body {
@@ -185,6 +192,14 @@ $font-size-xs: $font-size-base * .75;
   position: relative;
   padding: $spacer-2 0;
   border-bottom: 1px solid rgba($gold, 0.5);
+
+  &:hover {
+    background-color: rgba($gold, .05);
+  }
+
+  &.clicked {
+    background-color: rgba($gold, .1);
+  }
 
   &__icon {
     flex: 0 0 30px;
