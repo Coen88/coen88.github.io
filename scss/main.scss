@@ -316,8 +316,6 @@ $font-size-xs: $font-size-base * .75;
 
 .header {
   padding: $spacer-4 0 0;
-  // box-shadow: 0 0 30px rgba($black, .4);
-  // background-color: $gold-dark;
   background-color: $white;
   position: sticky;
   top: 0;
@@ -362,34 +360,8 @@ $font-size-xs: $font-size-base * .75;
     }
   }
 }
-// .header {
-//   padding: $spacer-4 0;
-//   border-bottom: $border-width solid $border-color;
-//   background-color: #794b26;
-//   color: #fff;
-// }
 
 .hero {
-  // @include bg-pattern($gray-900, #252a2e, #2d3236, $gray-900, 1);
-  // @include bg-pattern($gray-900, $gray-800, $gray-700, $gray-900, 1);
-  // @include bg-pattern($gray-300, $gray-200, $gray-100, $gray-300, 1);
-
-  // &::before,
-  // &::after {
-  //   content: "";
-  //   @extend %golden-stripe;
-  // }
-
-  // &__info {
-  //   padding: $spacer-4;
-  //   background-color: rgba($black, 0.5);
-  //   color: $white;
-  //   display: inline-block;
-  // }
-  // img {
-  //   max-width: 100%;
-  //   margin-bottom: -46px;
-  // }
   background-image: url(../img/art-deco-wahlarze.jpg);
   background-image: url(../img/wachlarze.webp);
   background-image: url(../img/wachlarze-dark.webp);
@@ -421,8 +393,6 @@ $font-size-xs: $font-size-base * .75;
   }
 
   @include media-breakpoint-up(lg) {
-    // padding: $spacer-10 0;
-
     @include bg-pattern-3($gray-200, $gray-100);
   }
 
