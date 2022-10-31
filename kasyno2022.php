@@ -293,7 +293,7 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole38" style="width: 80px;" value="'.$exp[37].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole39" style="width: 80px;" value="'.$exp[38].'" /></td>
 </tr>
-<tr>
+<tr style="display:none">
 <td width="50"><img src="icons/flags/hr.svg"></td>
 <td width="125">Chorwacja</td>
 <td width="100">Ilosc: <input type="text" name="pole40" style="width: 40px;" value="'.$exp[39].'" /></td>
@@ -434,7 +434,7 @@ echo '<form action="" method="post">
 <td width="175">Sprzedaz: <input type="text" name="pole99" style="width: 80px;" value="'.$exp[98].'" /></td>
 </tr>
 <tr>
-<td width="50"><img src="icons/flags/mo.svg"></td>
+<td width="50"><img src="icons/flags/ma.svg"></td>
 <td width="125">Maroko</td>
 <td width="100">Ilosc: <input type="text" name="pole100" style="width: 40px;" value="'.$exp[99].'" /></td>
 <td width="150">Kupno: <input type="text" name="pole101" style="width: 80px;" value="'.$exp[100].'" /></td>

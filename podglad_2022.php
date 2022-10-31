@@ -114,7 +114,7 @@ $exp = explode("`",$value);
 <td width="150">Kupno: <?php { echo $exp[37]; } ?></td>
 <td width="175">Sprzedaz: <?php { echo $exp[38]; } ?></td>
 </tr>
-<tr>
+<tr style="display: none">
 <td width="50"><img src="icons/flags/hr.svg"></td>
 <td width="125">Chorwacja</td>
 <td width="100">Ilosc: <?php { echo $exp[39]; } ?></td>
@@ -255,7 +255,7 @@ $exp = explode("`",$value);
 <td width="175">Sprzedaz: <?php { echo $exp[98]; } ?></td>
 </tr>
 <tr>
-<td width="50"><img src="icons/flags/mo.svg"></td>
+<td width="50"><img src="icons/flags/ma.svg"></td>
 <td width="125">Maroko</td>
 <td width="100">Ilosc: <?php { echo $exp[99]; } ?></td>
 <td width="150">Kupno: <?php { echo $exp[100]; } ?></td>
