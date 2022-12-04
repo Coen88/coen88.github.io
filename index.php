@@ -179,13 +179,13 @@ c-215 -222 -470 -361 -789 -430 -127 -28 -448 -26 -580 4 -364 80 -672 276
           </div>
           <div class="col-auto ms-auto">
             <div class="language">
-              <a href="index_2022.php" class="language__ver d-none d-md-block"
+              <a href="index.php" class="language__ver d-none d-md-block"
                 ><span class="visually-hidden">polska wersja</span>
                 <svg viewBox="0 0 4 3">
                   <use xlink:href="#pl"></use>
                 </svg>
               </a>
-              <a href="index_2022_uk.php" class="language__ver"
+              <a href="index_uk.php" class="language__ver"
                 ><span class="visually-hidden">english version</span>
                 <svg viewBox="0 0 4 3">
                   <use xlink:href="#gb"></use>
@@ -268,8 +268,8 @@ $exp = explode("`",$value);
                 </div>
                 <div class="currency__name">Waluta</div>
                 <div class="currency__quantity">Ilość</div>
-                <div class="currency__buy">Sprzedaż</div>
-                <div class="currency__sell">Kupno</div>
+                <div class="currency__buy">Kupno</div>
+                <div class="currency__sell">Sprzedaż</div>
               </div>
             </div>
             <div class="d-none d-lg-block col-lg-6">
@@ -280,8 +280,8 @@ $exp = explode("`",$value);
                 </div>
                 <div class="currency__name">Waluta</div>
                 <div class="currency__quantity">Ilość</div>
-                <div class="currency__buy">Sprzedaż</div>
-                <div class="currency__sell">Kupno</div>
+                <div class="currency__buy">Kupno</div>
+                <div class="currency__sell">Sprzedaż</div>
               </div>
             </div>
           </div>

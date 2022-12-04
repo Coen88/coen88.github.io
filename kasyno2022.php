@@ -202,28 +202,28 @@ echo '<form action="" method="post">
 <td>
 
 <table width="600" border="1" align="left" valign="top">
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/us.svg"></td>
 <td width="125">USA</td>
 <td width="100">Ilosc: <input type="text" name="pole1" style="width: 40px;" value="'.$exp[0].'" /></td>
 <td width="150">Kupno: <input type="text" name="pole2" style="width: 80px;" value="'.$exp[1].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole3" style="width: 80px;" value="'.$exp[2].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/eu.svg"></td>
 <td width="125">Europa</td>
 <td width="100">Ilosc: <input type="text" name="pole4" style="width: 40px;" value="'.$exp[3].'" /></td>
 <td width="150">Kupno: <input type="text" name="pole5" style="width: 80px;" value="'.$exp[4].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole6" style="width: 80px;" value="'.$exp[5].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/gb.svg"></td>
 <td width="125">Wielka Brytania</td>
 <td width="100">Ilosc: <input type="text" name="pole7" style="width: 40px;" value="'.$exp[6].'" /></td>
 <td width="150">Kupno: <input type="text" name="pole8" style="width: 80px;" value="'.$exp[7].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole9" style="width: 80px;" value="'.$exp[8].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/ch.svg"></td>
 <td width="125">Szwajcaria</td>
 <td width="100">Ilosc: <input type="text" name="pole10" style="width: 40px;" value="'.$exp[9].'" /></td>
@@ -244,14 +244,14 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole17" style="width: 80px;" value="'.$exp[16].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole18" style="width: 80px;" value="'.$exp[17].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/au.svg"></td>
 <td width="125">Australia</td>
 <td width="100">Ilosc: <input type="text" name="pole19" style="width: 40px;" value="'.$exp[18].'" /></td>
 <td width="150">Kupno: <input type="text" name="pole20" style="width: 80px;" value="'.$exp[19].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole21" style="width: 80px;" value="'.$exp[20].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/by.svg"></td>
 <td width="125">Białoruś</td>
 <td width="100">Ilosc: <input type="text" name="pole22" style="width: 40px;" value="'.$exp[21].'" /></td>
@@ -272,7 +272,7 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole29" style="width: 80px;" value="'.$exp[28].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole30" style="width: 80px;" value="'.$exp[29].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/bg.svg"></td>
 <td width="125">Bułgaria</td>
 <td width="100">Ilosc: <input type="text" name="pole31" style="width: 40px;" value="'.$exp[30].'" /></td>
@@ -286,7 +286,7 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole35" style="width: 80px;" value="'.$exp[34].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole36" style="width: 80px;" value="'.$exp[35].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/cn.svg"></td>
 <td width="125">Chiny</td>
 <td width="100">Ilosc: <input type="text" name="pole37" style="width: 40px;" value="'.$exp[36].'" /></td>
@@ -300,14 +300,14 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole41" style="width: 80px;" value="'.$exp[40].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole42" style="width: 80px;" value="'.$exp[41].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/cz.svg"></td>
 <td width="125">Czechy</td>
 <td width="100">Ilosc: <input type="text" name="pole43" style="width: 40px;" value="'.$exp[42].'" /></td>
 <td width="150">Kupno: <input type="text" name="pole44" style="width: 80px;" value="'.$exp[43].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole45" style="width: 80px;" value="'.$exp[44].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/dk.svg"></td>
 <td width="125">Dania</td>
 <td width="100">Ilosc: <input type="text" name="pole46" style="width: 40px;" value="'.$exp[45].'" /></td>
@@ -328,7 +328,7 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole53" style="width: 80px;" value="'.$exp[52].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole54" style="width: 80px;" value="'.$exp[53].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/ge.svg"></td>
 <td width="125">Gruzja</td>
 <td width="100">Ilosc: <input type="text" name="pole55" style="width: 40px;" value="'.$exp[54].'" /></td>
@@ -356,14 +356,14 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole65" style="width: 80px;" value="'.$exp[64].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole66" style="width: 80px;" value="'.$exp[65].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/il.svg"></td>
 <td width="125">Izrael</td>
 <td width="100">Ilosc: <input type="text" name="pole67" style="width: 40px;" value="'.$exp[66].'" /></td>
 <td width="150">Kupno: <input type="text" name="pole68" style="width: 80px;" value="'.$exp[67].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole69" style="width: 80px;" value="'.$exp[68].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/jp.svg"></td>
 <td width="125">Japonia</td>
 <td width="100">Ilosc: <input type="text" name="pole70" style="width: 40px;" value="'.$exp[69].'" /></td>
@@ -377,7 +377,7 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole74" style="width: 80px;" value="'.$exp[73].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole75" style="width: 80px;" value="'.$exp[74].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/ca.svg"></td>
 <td width="125">Kanada</td>
 <td width="100">Ilosc: <input type="text" name="pole76" style="width: 40px;" value="'.$exp[75].'" /></td>
@@ -454,7 +454,7 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole107" style="width: 80px;" value="'.$exp[106].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole108" style="width: 80px;" value="'.$exp[107].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/no.svg"></td>
 <td width="125">Norwegia</td>
 <td width="100">Ilosc: <input type="text" name="pole109" style="width: 40px;" value="'.$exp[108].'" /></td>
@@ -496,7 +496,7 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole125" style="width: 80px;" value="'.$exp[124].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole126" style="width: 80px;" value="'.$exp[125].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/ru.svg"></td>
 <td width="125">Rosja</td>
 <td width="100">Ilosc: <input type="text" name="pole127" style="width: 40px;" value="'.$exp[126].'" /></td>
@@ -510,7 +510,7 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole131" style="width: 80px;" value="'.$exp[130].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole132" style="width: 80px;" value="'.$exp[131].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/ro.svg"></td>
 <td width="125">Rumunia</td>
 <td width="100">Ilosc: <input type="text" name="pole133" style="width: 40px;" value="'.$exp[132].'" /></td>
@@ -531,14 +531,14 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole140" style="width: 80px;" value="'.$exp[139].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole141" style="width: 80px;" value="'.$exp[140].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/se.svg"></td>
 <td width="125">Szwecja</td>
 <td width="100">Ilosc: <input type="text" name="pole142" style="width: 40px;" value="'.$exp[141].'" /></td>
 <td width="150">Kupno: <input type="text" name="pole143" style="width: 80px;" value="'.$exp[142].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole144" style="width: 80px;" value="'.$exp[143].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/th.svg"></td>
 <td width="125">Tajlandia</td>
 <td width="100">Ilosc: <input type="text" name="pole145" style="width: 40px;" value="'.$exp[144].'" /></td>
@@ -559,21 +559,21 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole152" style="width: 80px;" value="'.$exp[151].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole153" style="width: 80px;" value="'.$exp[152].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/tr.svg"></td>
 <td width="125">Turcja</td>
 <td width="100">Ilosc: <input type="text" name="pole154" style="width: 40px;" value="'.$exp[153].'" /></td>
 <td width="150">Kupno: <input type="text" name="pole155" style="width: 80px;" value="'.$exp[154].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole156" style="width: 80px;" value="'.$exp[155].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/ua.svg"></td>
 <td width="125">Ukraina</td>
 <td width="100">Ilosc: <input type="text" name="pole157" style="width: 40px;" value="'.$exp[156].'" /></td>
 <td width="150">Kupno: <input type="text" name="pole158" style="width: 80px;" value="'.$exp[157].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole159" style="width: 80px;" value="'.$exp[158].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/hu.svg"></td>
 <td width="125">Węgry</td>
 <td width="100">Ilosc: <input type="text" name="pole160" style="width: 40px;" value="'.$exp[159].'" /></td>
@@ -587,7 +587,7 @@ echo '<form action="" method="post">
 <td width="150">Kupno: <input type="text" name="pole164" style="width: 80px;" value="'.$exp[163].'" /></td>
 <td width="175">Sprzedaz: <input type="text" name="pole165" style="width: 80px;" value="'.$exp[164].'" /></td>
 </tr>
-<tr>
+<tr bgcolor="#ff9999">
 <td width="50"><img src="icons/flags/ae.svg"></td>
 <td width="125">Zjednoczone Emiraty Arabskie</td>
 <td width="100">Ilosc: <input type="text" name="pole166" style="width: 40px;" value="'.$exp[165].'" /></td>
