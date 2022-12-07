@@ -164,6 +164,13 @@ $exp = explode("`",$value);
 <td width="175">Sprzedaz: <?php { echo $exp[59]; } ?></td>
 </tr>
 <tr>
+<td width="50"><img src="icons/flags/in.svg"></td>
+<td width="125">Indie</td>
+<td width="100">Ilosc: <?php { echo $exp[168]; } ?></td>
+<td width="150">Kupno: <?php { echo $exp[169]; } ?></td>
+<td width="175">Sprzedaz: <?php { echo $exp[170]; } ?></td>
+</tr>
+<tr>
 <td width="50"><img src="icons/flags/id.svg"></td>
 <td width="125">Indonezja</td>
 <td width="100">Ilosc: <?php { echo $exp[60]; } ?></td>
@@ -422,25 +429,25 @@ $exp = explode("`",$value);
 <td>Tekst w headerze</td>
 </tr>
 <tr>
-<td><?php { echo $exp[168]; } ?></td>
+<td><?php { echo $exp[171]; } ?></td>
 </tr>
 <tr>
 <td>Tekst na dole strony</td>
 </tr>
 <tr>
-<td><?php { echo $exp[169]; } ?></td>
+<td><?php { echo $exp[172]; } ?></td>
 </tr>
 <tr>
 <td>[ENG] Tekst w headerze</td>
 </tr>
 <tr>
-<td><?php { echo $exp[170]; } ?></td>
+<td><?php { echo $exp[173]; } ?></td>
 </tr>
 <tr>
 <td>[ENG] Tekst na dole strony</td>
 </tr>
 <tr>
-<td><?php { echo $exp[171]; } ?></td>
+<td><?php { echo $exp[174]; } ?></td>
 </tr>
 </table>
 
