@@ -220,20 +220,39 @@ $font-size-xs: $font-size-base * .75;
       flex-basis: 40%;
     }
   }
-  
+
+  &__name,
+  &__quantity,
+  &__buy,
+  &__sell,
+  &__fullname {
+    text-align: center;
+  }
+
   &__name,
   &__quantity {
-    text-align: center;
     flex-basis: 15%;
+
+    @include media-breakpoint-up(md) {
+      flex-basis: 10%;
+    }
   }
-  
+
   &__buy,
   &__sell {
     flex-basis: 20%;
-    text-align: center;
     
     @include media-breakpoint-up(md) {
-      flex-basis: 15%;
+      flex-basis: 14%;
+    }
+  }
+
+  &__fullname {
+    display: none;
+
+    @include media-breakpoint-up(md) {
+      display: block;
+      flex-basis: 12%;
     }
   }
 }

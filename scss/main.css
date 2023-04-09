@@ -9005,17 +9005,32 @@ progress {
     flex-basis: 40%;
   }
 }
-.currency__name, .currency__quantity {
+.currency__name, .currency__quantity, .currency__buy, .currency__sell, .currency__fullname {
   text-align: center;
+}
+.currency__name, .currency__quantity {
   flex-basis: 15%;
+}
+@media (min-width: 768px) {
+  .currency__name, .currency__quantity {
+    flex-basis: 10%;
+  }
 }
 .currency__buy, .currency__sell {
   flex-basis: 20%;
-  text-align: center;
 }
 @media (min-width: 768px) {
   .currency__buy, .currency__sell {
-    flex-basis: 15%;
+    flex-basis: 14%;
+  }
+}
+.currency__fullname {
+  display: none;
+}
+@media (min-width: 768px) {
+  .currency__fullname {
+    display: block;
+    flex-basis: 12%;
   }
 }
 
